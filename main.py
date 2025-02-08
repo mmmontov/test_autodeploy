@@ -9,7 +9,7 @@ dp = Dispatcher()
 
 @dp.message(CommandStart())
 async def process_start(message: Message):
-    await message.answer(text='Привет! Это обычный бот.')
+    await message.answer(text='Привет! Это обычный бот в разработке.')
 
 
 async def main():
