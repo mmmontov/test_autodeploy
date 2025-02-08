@@ -9,7 +9,7 @@ dp = Dispatcher()
 
 @dp.message(CommandStart())
 async def process_start(message: Message):
-    await message.answer(text='Привет! Это автобот в разработке изменённый замерженый.')
+    await message.answer(text='Привет! Это автобот.')
 
 
 async def main():
